@@ -39,7 +39,7 @@ img {
 /* style the favourite word in top */
 
 .favourites {
-    margin-left: 30px;
+    margin-left: 70px;
     color: white;
     font-size: 1.25em;
     font-style: normal;
@@ -68,8 +68,11 @@ img {
 
 /* Notification icon in left side  */
 
-.fa-bell {
-    font-size: 50px;
+.bell {
+    font-size: 30px;
+    text-align: right;
+    padding-right: 50px;
+    color: white;
 }
 
 
@@ -151,6 +154,7 @@ img {
     position: relative;
     float: left;
     overflow: hidden;
+    margin-right: 40px;
 }
 
 .slideshow img {
@@ -214,7 +218,7 @@ img {
 /* latest release song will appear */
 
 .section2 .Latest-Release {
-    margin-left: 30px;
+    margin-left: 10px;
 }
 
 
@@ -223,6 +227,7 @@ img {
 .popular-Artist {
     display: block;
     justify-content: space-around;
+    margin-bottom: ;
 }
 
 .popular-Artist img {
@@ -283,5 +288,6 @@ img {
 
 .latest-playlist {
     position: sticky;
-    max-width: 100%;
+    width: 100%;
+    margin-left: -10px;
 }
